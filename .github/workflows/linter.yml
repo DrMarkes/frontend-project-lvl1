@@ -1,5 +1,8 @@
 name: Linter
 
+on:
+  push
+
 jobs:
   build:
 
