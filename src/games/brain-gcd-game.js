@@ -8,8 +8,8 @@ const getGCD = (pairsNumber) => {
   const divisible = car(pairsNumber);
   const divider = cdr(pairsNumber);
   const reminder = divisible % divider;
-  if (reminder === 0) {
-    return divider;
+  if (divider === 0) {
+    return divisible;
   }
 
   const pairs = cons(divider, reminder);
