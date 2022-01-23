@@ -15,3 +15,6 @@
 
 ### Brain Greatest Common Divisor Game:
 [![asciicast](https://asciinema.org/a/463686.svg)](https://asciinema.org/a/463686)
+
+### Brain Progression Game:
+[![asciicast](https://asciinema.org/a/463691.svg)](https://asciinema.org/a/463691)
