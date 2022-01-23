@@ -12,3 +12,6 @@
 
 ### Brain Calc Game:
 [![asciicast](https://asciinema.org/a/463679.svg)](https://asciinema.org/a/463679)
+
+### Brain Greatest Common Divisor Game:
+[![asciicast](https://asciinema.org/a/463686.svg)](https://asciinema.org/a/463686)
