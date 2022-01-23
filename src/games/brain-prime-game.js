@@ -36,17 +36,7 @@ const pows = (a, b, m) => {
   return (mult(pows(a, b - 1, m), a, m)) % m;
 };
 
-const isPrime = (number) => {
-  const CarmichaelNumbers = [561, 1105, 1729, 2465, 2821];
-
-  if (number === 2) {
-    return true;
-  }
-
-  if (CarmichaelNumbers.includes(number)) {
-    return false;
-  }
-
+const iterationsFoundisPrime = (number) => {
   for (let i = 0; i < 100; i += 1) {
     const a = (Math.floor(Math.random() * number * 10) % (number - 2)) + 2;
     if (gcd(a, number) !== 1) {
@@ -59,6 +49,20 @@ const isPrime = (number) => {
   }
 
   return true;
+};
+
+const isPrime = (number) => {
+  const CarmichaelNumbers = [561, 1105, 1729, 2465, 2821];
+
+  if (number === 2) {
+    return true;
+  }
+
+  if (CarmichaelNumbers.includes(number)) {
+    return false;
+  }
+
+  return iterationsFoundisPrime(number);
 };
 
 const maxNumber = 3500;
