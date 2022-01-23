@@ -3,7 +3,7 @@ import readlineSync from 'readline-sync';
 const isEven = (number) => number % 2 === 0;
 
 export default () => {
-  let round = 3;
+  const round = 3;
 
   console.log('Welcome to the Brain Games!');
   const userName = readlineSync.question('May I have your name? ');
