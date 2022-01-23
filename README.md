@@ -4,4 +4,5 @@
 ### CodeClimate tests and linter status:
 <a href="https://codeclimate.com/github/DrMarkes/frontend-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/e08f19ffc1b84bdb7ca9/maintainability" /></a>
 
+### Eslint:
 [![Linter](https://github.com/DrMarkes/frontend-project-lvl1/actions/workflows/linter.yml/badge.svg)](https://github.com/DrMarkes/frontend-project-lvl1/actions/workflows/linter.yml)
