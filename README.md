@@ -7,5 +7,8 @@
 ### Eslint:
 [![Linter](https://github.com/DrMarkes/frontend-project-lvl1/actions/workflows/linter.yml/badge.svg)](https://github.com/DrMarkes/frontend-project-lvl1/actions/workflows/linter.yml)
 
-### Brain Even Game:
+### Install and Brain Even Game:
 [![asciicast](https://asciinema.org/a/463642.svg)](https://asciinema.org/a/463642)
+
+### Brain Calc Game:
+[![asciicast](https://asciinema.org/a/463679.svg)](https://asciinema.org/a/463679)
